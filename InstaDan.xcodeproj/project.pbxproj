@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E078BCE172A095D0092F2E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BCD172A095D0092F2E4 /* UIKit.framework */; };
+		8E078BD0172A095D0092F2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BCF172A095D0092F2E4 /* Foundation.framework */; };
+		8E078BD2172A095D0092F2E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BD1172A095D0092F2E4 /* CoreGraphics.framework */; };
+		8E078BD8172A095D0092F2E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BD6172A095D0092F2E4 /* InfoPlist.strings */; };
+		8E078BDA172A095D0092F2E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E078BD9172A095D0092F2E4 /* main.m */; };
+		8E078BDE172A095D0092F2E4 /* iDanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E078BDD172A095D0092F2E4 /* iDanAppDelegate.m */; };
+		8E078BE0172A095D0092F2E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BDF172A095D0092F2E4 /* Default.png */; };
+		8E078BE2172A095D0092F2E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BE1172A095D0092F2E4 /* Default@2x.png */; };
+		8E078BE4172A095D0092F2E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BE3172A095D0092F2E4 /* Default-568h@2x.png */; };
+		8E078BE7172A095E0092F2E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BE5172A095E0092F2E4 /* MainStoryboard.storyboard */; };
+		8E078BF1172A0C850092F2E4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BF0172A0C850092F2E4 /* CoreImage.framework */; };
+		8E078BF3172A0CAD0092F2E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BF2172A0CAD0092F2E4 /* Social.framework */; };
+		8E078BF5172A0CB40092F2E4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E078BF4172A0CB40092F2E4 /* MessageUI.framework */; };
+		8E078BF7172A0D140092F2E4 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E078BF6172A0D140092F2E4 /* me.jpg */; };
+		8E078BFD172A13CA0092F2E4 /* iDanProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E078BFC172A13CA0092F2E4 /* iDanProcessViewController.m */; };
+		8E3C4C121737634200A25042 /* iDanComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C4C111737634200A25042 /* iDanComposeViewController.m */; };
+		8E59B9441738580F0007A6CD /* fblogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E59B9421738580F0007A6CD /* fblogo.jpg */; };
+		8E59B9451738580F0007A6CD /* twitterlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E59B9431738580F0007A6CD /* twitterlogo.jpg */; };
+		8E59B95417387F170007A6CD /* iglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E59B95317387F170007A6CD /* iglogo.png */; };
+		8E59B95617387F550007A6CD /* iglogo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E59B95517387F550007A6CD /* iglogo114.png */; };
+		8EAB0C2017376E94009CE397 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAB0C1F17376E94009CE397 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E078BCA172A095C0092F2E4 /* InstaDan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E078BCD172A095D0092F2E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E078BCF172A095D0092F2E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E078BD1172A095D0092F2E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E078BD5172A095D0092F2E4 /* InstaDan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaDan-Info.plist"; sourceTree = "<group>"; };
+		8E078BD7172A095D0092F2E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E078BD9172A095D0092F2E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E078BDB172A095D0092F2E4 /* InstaDan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaDan-Prefix.pch"; sourceTree = "<group>"; };
+		8E078BDC172A095D0092F2E4 /* iDanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDanAppDelegate.h; sourceTree = "<group>"; };
+		8E078BDD172A095D0092F2E4 /* iDanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDanAppDelegate.m; sourceTree = "<group>"; };
+		8E078BDF172A095D0092F2E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E078BE1172A095D0092F2E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E078BE3172A095D0092F2E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E078BE6172A095E0092F2E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8E078BF0172A0C850092F2E4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8E078BF2172A0CAD0092F2E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8E078BF4172A0CB40092F2E4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8E078BF6172A0D140092F2E4 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpg; path = ../../../../../Desktop/me.jpg; sourceTree = "<group>"; };
+		8E078BFB172A13CA0092F2E4 /* iDanProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDanProcessViewController.h; sourceTree = "<group>"; };
+		8E078BFC172A13CA0092F2E4 /* iDanProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDanProcessViewController.m; sourceTree = "<group>"; };
+		8E3C4C101737634200A25042 /* iDanComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iDanComposeViewController.h; path = ../iDanComposeViewController.h; sourceTree = "<group>"; };
+		8E3C4C111737634200A25042 /* iDanComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iDanComposeViewController.m; path = ../iDanComposeViewController.m; sourceTree = "<group>"; };
+		8E59B9421738580F0007A6CD /* fblogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fblogo.jpg; sourceTree = SOURCE_ROOT; };
+		8E59B9431738580F0007A6CD /* twitterlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitterlogo.jpg; sourceTree = SOURCE_ROOT; };
+		8E59B95317387F170007A6CD /* iglogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iglogo.png; sourceTree = SOURCE_ROOT; };
+		8E59B95517387F550007A6CD /* iglogo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iglogo114.png; sourceTree = SOURCE_ROOT; };
+		8EAB0C1F17376E94009CE397 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E078BC7172A095C0092F2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAB0C2017376E94009CE397 /* AssetsLibrary.framework in Frameworks */,
+				8E078BF5172A0CB40092F2E4 /* MessageUI.framework in Frameworks */,
+				8E078BF3172A0CAD0092F2E4 /* Social.framework in Frameworks */,
+				8E078BF1172A0C850092F2E4 /* CoreImage.framework in Frameworks */,
+				8E078BCE172A095D0092F2E4 /* UIKit.framework in Frameworks */,
+				8E078BD0172A095D0092F2E4 /* Foundation.framework in Frameworks */,
+				8E078BD2172A095D0092F2E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E078BC1172A095B0092F2E4 = {
+			isa = PBXGroup;
+			children = (
+				8E078BD3172A095D0092F2E4 /* InstaDan */,
+				8E078BCC172A095D0092F2E4 /* Frameworks */,
+				8E078BCB172A095C0092F2E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E078BCB172A095C0092F2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E078BCA172A095C0092F2E4 /* InstaDan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E078BCC172A095D0092F2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB0C1F17376E94009CE397 /* AssetsLibrary.framework */,
+				8E078BF4172A0CB40092F2E4 /* MessageUI.framework */,
+				8E078BF2172A0CAD0092F2E4 /* Social.framework */,
+				8E078BF0172A0C850092F2E4 /* CoreImage.framework */,
+				8E078BCD172A095D0092F2E4 /* UIKit.framework */,
+				8E078BCF172A095D0092F2E4 /* Foundation.framework */,
+				8E078BD1172A095D0092F2E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E078BD3172A095D0092F2E4 /* InstaDan */ = {
+			isa = PBXGroup;
+			children = (
+				8E078BDC172A095D0092F2E4 /* iDanAppDelegate.h */,
+				8E078BDD172A095D0092F2E4 /* iDanAppDelegate.m */,
+				8E078BFB172A13CA0092F2E4 /* iDanProcessViewController.h */,
+				8E078BFC172A13CA0092F2E4 /* iDanProcessViewController.m */,
+				8E3C4C101737634200A25042 /* iDanComposeViewController.h */,
+				8E3C4C111737634200A25042 /* iDanComposeViewController.m */,
+				8E078BE5172A095E0092F2E4 /* MainStoryboard.storyboard */,
+				8E078BD4172A095D0092F2E4 /* Supporting Files */,
+			);
+			path = InstaDan;
+			sourceTree = "<group>";
+		};
+		8E078BD4172A095D0092F2E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E59B95517387F550007A6CD /* iglogo114.png */,
+				8E59B95317387F170007A6CD /* iglogo.png */,
+				8E59B9421738580F0007A6CD /* fblogo.jpg */,
+				8E59B9431738580F0007A6CD /* twitterlogo.jpg */,
+				8E078BF6172A0D140092F2E4 /* me.jpg */,
+				8E078BD5172A095D0092F2E4 /* InstaDan-Info.plist */,
+				8E078BD6172A095D0092F2E4 /* InfoPlist.strings */,
+				8E078BD9172A095D0092F2E4 /* main.m */,
+				8E078BDB172A095D0092F2E4 /* InstaDan-Prefix.pch */,
+				8E078BDF172A095D0092F2E4 /* Default.png */,
+				8E078BE1172A095D0092F2E4 /* Default@2x.png */,
+				8E078BE3172A095D0092F2E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E078BC9172A095C0092F2E4 /* InstaDan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E078BED172A095E0092F2E4 /* Build configuration list for PBXNativeTarget "InstaDan" */;
+			buildPhases = (
+				8E078BC6172A095C0092F2E4 /* Sources */,
+				8E078BC7172A095C0092F2E4 /* Frameworks */,
+				8E078BC8172A095C0092F2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaDan;
+			productName = InstaDan;
+			productReference = 8E078BCA172A095C0092F2E4 /* InstaDan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E078BC2172A095C0092F2E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iDan;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dan Reife";
+			};
+			buildConfigurationList = 8E078BC5172A095C0092F2E4 /* Build configuration list for PBXProject "InstaDan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E078BC1172A095B0092F2E4;
+			productRefGroup = 8E078BCB172A095C0092F2E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E078BC9172A095C0092F2E4 /* InstaDan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E078BC8172A095C0092F2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E078BD8172A095D0092F2E4 /* InfoPlist.strings in Resources */,
+				8E078BE0172A095D0092F2E4 /* Default.png in Resources */,
+				8E078BE2172A095D0092F2E4 /* Default@2x.png in Resources */,
+				8E078BE4172A095D0092F2E4 /* Default-568h@2x.png in Resources */,
+				8E078BE7172A095E0092F2E4 /* MainStoryboard.storyboard in Resources */,
+				8E078BF7172A0D140092F2E4 /* me.jpg in Resources */,
+				8E59B9441738580F0007A6CD /* fblogo.jpg in Resources */,
+				8E59B9451738580F0007A6CD /* twitterlogo.jpg in Resources */,
+				8E59B95417387F170007A6CD /* iglogo.png in Resources */,
+				8E59B95617387F550007A6CD /* iglogo114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E078BC6172A095C0092F2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E078BDA172A095D0092F2E4 /* main.m in Sources */,
+				8E078BDE172A095D0092F2E4 /* iDanAppDelegate.m in Sources */,
+				8E078BFD172A13CA0092F2E4 /* iDanProcessViewController.m in Sources */,
+				8E3C4C121737634200A25042 /* iDanComposeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E078BD6172A095D0092F2E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E078BD7172A095D0092F2E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E078BE5172A095E0092F2E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E078BE6172A095E0092F2E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E078BEB172A095E0092F2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E078BEC172A095E0092F2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E078BEE172A095E0092F2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaDan/InstaDan-Prefix.pch";
+				INFOPLIST_FILE = "InstaDan/InstaDan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E078BEF172A095E0092F2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaDan/InstaDan-Prefix.pch";
+				INFOPLIST_FILE = "InstaDan/InstaDan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E078BC5172A095C0092F2E4 /* Build configuration list for PBXProject "InstaDan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E078BEB172A095E0092F2E4 /* Debug */,
+				8E078BEC172A095E0092F2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E078BED172A095E0092F2E4 /* Build configuration list for PBXNativeTarget "InstaDan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E078BEE172A095E0092F2E4 /* Debug */,
+				8E078BEF172A095E0092F2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E078BC2172A095C0092F2E4 /* Project object */;
+}
